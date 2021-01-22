@@ -1,0 +1,22 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.getBestNumberTypeStyleKey = exports.defaultStyleDefinitions = exports.TypeStyleKey = void 0;
+
+var _XLSXWriteStream = _interopRequireDefault(require("./XLSXWriteStream.js"));
+
+var _styles = require("./templates/styles.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const TypeStyleKey = _styles.TypeStyleKey;
+exports.TypeStyleKey = TypeStyleKey;
+const defaultStyleDefinitions = _styles.defaultStyleDefinitions;
+exports.defaultStyleDefinitions = defaultStyleDefinitions;
+const getBestNumberTypeStyleKey = _styles.getBestNumberTypeStyleKey;
+exports.getBestNumberTypeStyleKey = getBestNumberTypeStyleKey;
+var _default = _XLSXWriteStream.default;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJUeXBlU3R5bGVLZXkiLCJfVHlwZVN0eWxlS2V5IiwiZGVmYXVsdFN0eWxlRGVmaW5pdGlvbnMiLCJfZGVmYXVsdFN0eWxlRGVmaW5pdGlvbnMiLCJnZXRCZXN0TnVtYmVyVHlwZVN0eWxlS2V5IiwiX2dldEJlc3ROdW1iZXJUeXBlU3R5bGVLZXkiLCJYTFNYV3JpdGVTdHJlYW0iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQTs7QUFDQTs7OztBQU1PLE1BQU1BLFlBQVksR0FBR0Msb0JBQXJCOztBQUNBLE1BQU1DLHVCQUF1QixHQUFHQywrQkFBaEM7O0FBQ0EsTUFBTUMseUJBQXlCLEdBQUdDLGlDQUFsQzs7ZUFFUUMsd0IiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgWExTWFdyaXRlU3RyZWFtIGZyb20gJy4vWExTWFdyaXRlU3RyZWFtLmpzJztcbmltcG9ydCB7XG4gIFR5cGVTdHlsZUtleSBhcyBfVHlwZVN0eWxlS2V5LFxuICBkZWZhdWx0U3R5bGVEZWZpbml0aW9ucyBhcyBfZGVmYXVsdFN0eWxlRGVmaW5pdGlvbnMsXG4gIGdldEJlc3ROdW1iZXJUeXBlU3R5bGVLZXkgYXMgX2dldEJlc3ROdW1iZXJUeXBlU3R5bGVLZXlcbn0gZnJvbSAnLi90ZW1wbGF0ZXMvc3R5bGVzLmpzJztcblxuZXhwb3J0IGNvbnN0IFR5cGVTdHlsZUtleSA9IF9UeXBlU3R5bGVLZXk7XG5leHBvcnQgY29uc3QgZGVmYXVsdFN0eWxlRGVmaW5pdGlvbnMgPSBfZGVmYXVsdFN0eWxlRGVmaW5pdGlvbnM7XG5leHBvcnQgY29uc3QgZ2V0QmVzdE51bWJlclR5cGVTdHlsZUtleSA9IF9nZXRCZXN0TnVtYmVyVHlwZVN0eWxlS2V5O1xuXG5leHBvcnQgZGVmYXVsdCBYTFNYV3JpdGVTdHJlYW07XG4iXX0=
